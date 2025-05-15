@@ -1,0 +1,49 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Letting You Go</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    #message {
+      display: none;
+      margin-top: 30px;
+      white-space: pre-line;
+      color: #444;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-size: 18px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#" onclick="showMessage()">Click here before I leave</a>
+
+  <div id="message">
+    now, it seems I'm ready to leave you.  
+    even though it's that short, I'm so happy with you and I prayed for you.  
+    
+    letting you go is the deepest form of my love, be happy stranger 🤍  
+    
+    tbh, I still miss you, but I won't bother you anymore.
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
