@@ -2,17 +2,17 @@
 Click, and you'll understand
 index.html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Letting You Go</title>
+  <title>Membiarkanmu Pergi</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 100px;
     }
-    #message {
+    #pesan {
       display: none;
       margin-top: 30px;
       white-space: pre-line;
@@ -29,23 +29,16 @@ index.html
   </style>
 </head>
 <body>
-
-  <a href="#" onclick="showMessage()">Click here before I leave</a>
-
-  <div id="message">
-    now, it seems I'm ready to leave you.  
-    even though it's that short, I'm so happy with you and I prayed for you.  
-    
-    letting you go is the deepest form of my love, be happy stranger 🤍  
-    
-    tbh, I still miss you, but I won't bother you anymore.
+  <a href="#" onclick="tampilkanPesan()">Klik, dan kamu akan mengerti</a>
+  <div id="pesan">
+    Sekarang, sepertinya aku siap melepasmu\n
+    meski sebenarnya itu berat.\n
+    Melepaskanmu adalah bentuk cinta terdalamku.
   </div>
-
   <script>
-    function showMessage() {
-      document.getElementById("message").style.display = "block";
+    function tampilkanPesan() {
+      document.getElementById("pesan").style.display = "block";
     }
   </script>
-
 </body>
 </html>
