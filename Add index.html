@@ -1,18 +1,15 @@
-# From-eyaa
-Click, and you'll understand
-index.html
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Membiarkanmu Pergi</title>
+  <title>Letting You Go</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 100px;
     }
-    #pesan {
+    #message {
       display: none;
       margin-top: 30px;
       white-space: pre-line;
@@ -29,16 +26,21 @@ index.html
   </style>
 </head>
 <body>
-  <a href="#" onclick="tampilkanPesan()">Klik, dan kamu akan mengerti</a>
-  <div id="pesan">
-    Sekarang, sepertinya aku siap melepasmu\n
-    meski sebenarnya itu berat.\n
-    Melepaskanmu adalah bentuk cinta terdalamku.
+
+  <a href="#" onclick="showMessage()">Click here before I leave</a>
+
+  <div id="message">
+    now, it seems I'm ready to leave you.  
+    even though it's that short, I'm so happy with you and I prayed for you.  
+    letting you go is the deepest form of love.  
+    tbh, I still miss you, but I won't hold you back anymore.
   </div>
+
   <script>
-    function tampilkanPesan() {
-      document.getElementById("pesan").style.display = "block";
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
     }
   </script>
+
 </body>
 </html>
